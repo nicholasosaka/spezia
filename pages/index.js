@@ -1,10 +1,13 @@
 import Head from 'next/head'
-import { Button } from '@components/button'
 
 function Home() {
   return (
     <div>
-      <Button />
+      <Head>
+        <title>Spezia</title>
+      </Head>
+      <h1>Spezia</h1>
+      <h2>Cooking and recipes made easy.</h2>
     </div>
   )
 }
