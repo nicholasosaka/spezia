@@ -1,9 +1,12 @@
 import Head from 'next/head'
+import { Button } from '@components/button'
 
-export default function Home() {
+function Home() {
   return (
     <div>
-      <p> Hello World </p>
+      <Button />
     </div>
   )
 }
+
+export default Home
